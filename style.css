@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+h1, h2, h3{
+    color: #333;
+    text-align: center;
+    margin: 30px;
+    padding: 0;
+}
+
+nav{
+    background-color: #111;
+    display: flex;
+    align-items: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: padding 0.2s ease-in-out;
+}
+
+#inicio{
+    background-color: #ccc;
+    height: 60vh;
+}
+#prod{
+    background-color: #ffffff;
+    padding-top: 30vh;
+    height: 60vh;
+}
+#pedido{
+    background-color: #ccc;
+    padding-top: 30vh;
+    height: 30vh;
+}
+
+label {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
