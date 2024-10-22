@@ -1,52 +1,127 @@
 body {
+    font: normal 17px Arial;
     margin: 0;
     padding: 0;
-    padding-top: 40px;
-    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    color: #ff6347;
+}
+
+section h2, section h3 {
     color: #555;
 }
 
-h1, h2, h3{
-    color: #333;
-    text-align: center;
-    margin: 30px;
-    padding: 0;
+section img.conteudo-sec{
+    max-width: 50%;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
-nav{
-    background-color: #111;
-    display: flex;
-    align-items: left;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-}
-
-a{
-    color: #fff;
+a {
+    color: #ff6347;
     text-decoration: none;
-    padding: 15px 20px;
-    transition: padding 0.2s ease-in-out;
 }
 
-#inicio{
-    background-color: #ccc;
-    height: 60vh;
-}
-#prod{
-    background-color: #ffffff;
-    padding-top: 30vh;
-    height: 60vh;
-}
-#pedido{
-    background-color: #ccc;
-    padding-top: 30vh;
-    height: 30vh;
+a:hover {
+    text-decoration: underline;
 }
 
-label {
+#pedido label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#btnLogin {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dfc5c0;
     color: white;
-    text-align: center;
-    margin: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#btnLogin:hover {
+    background-color: #e5533d;
+}
+
+.conteudo-sec {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-sec img {
+    max-width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.conteudo-sec p {
+    flex: 1;
+}
+
+#prod div {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#prod img:hover {
+    transform: scale(1.05);
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-content img{
+    max-width: 50%;
+    height: 300px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.section-content p {
+    flex: 1;
+    color: #555;
 }
