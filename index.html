@@ -21,6 +21,7 @@
         <section>
             <h1>Lanchonete Felicidade!</h1>
             <h2>Aqui seu lanche te faz mais feliz</h2>
+
             <div class="conteudo-sec">
                 <img src="./imagens/iconeLanchoneteC.png" alt="logo">
                 <div>
@@ -33,35 +34,53 @@
 
         <section id="prod">
             <h1>Informações + fotos dos produtos</h1>
+
             <div class="section-content">
                 <img src="./imagens/produto1.jpg" alt="Imagem do hotdog simples">
                 <p><strong>HOT DOG SIMPLES: </strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime commodi hic eaque distinctio autem repellendus numquam dolore nostrum expedita quasi, voluptatum error explicabo rem, sapiente facilis debitis ab, nesciunt mollitia!<br><br><strong>VALOR: R$24,49</strong></p>
             </div>
+
             <div class="section-content">
                 <img src="./imagens/produto2.jpg" alt="Imagem do hotdog premium">
                 <p><strong>HOT DOG GOURMET: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla cumque asperiores quisquam enim in inventore at id ipsam. Nesciunt assumenda esse quia. Eligendi, vel natus. Similique dolor molestias ipsum.<br><br><strong>VALOR: R$59,90</strong></p>
             </div>
+
             <div class="section-content">
                 <img src="./imagens/produto3.jpg" alt="Imagem do hamburguer simples">
                 <p><strong>HAMBURGUER SIMPLES: </strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque maxime nihil, rem repellendus aperiam enim aliquid nemo omnis, tempore officiis quas sunt quae, totam numquam facilis corrupti natus. Consectetur, commodi!<br><br><strong>VALOR: R$29,90</strong></p>
             </div>
+
             <div class="section-content">
                 <img src="./imagens/produto4.jpg" alt="Imagem do hamburguer premium">
                 <p><strong>HAMBURGUER GOURMET: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla cumque asperiores quisquam enim in inventore at id ipsam. Nesciunt assumenda esse quia. Eligendi, vel natus. Similique dolor molestias ipsum.<br><br><strong>VALOR: R$69,90</strong></p>
             </div>
+
             <div class="section-content">
                 <img src="./imagens/produto5.jpg" alt="Imagem da opcao kids">
                 <p><strong>COMBO KIDS: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla cumque asperiores quisquam enim in inventore at id ipsam. Nesciunt assumenda esse quia. Eligendi, vel natus. Similique dolor molestias ipsum.<br><br><strong>VALOR: R$37,99</strong></p>
             </div>
+
         </section>
 
 
         <section id="pedido">
             <h1>Aqui você pode realizar seu pedido</h1>
             <label for="pedido">Ir para pedidos</label>
-            <a href="login" id="btnLogin">AQUI</a>
+            <a href="#login" id="btnLogin">AQUI</a>
         </section>
     </main>
+
+    <dialog id="login">
+        <form>
+            <h2>Login</h2>
+                <label for="email"> E-mail:</label>
+                <input type="text" name="email" id="email"><br>
+                <label for="senha"> Senha: </label>
+                <input type="password" name="senha" id="senha"><br>
+                <button type="button" id="btnFechar">Sair</button>
+                <button type="submit">Entrar</button>
+        </form>
+    </dialog>
     
     <script src="script.js"></script>
 </body>
