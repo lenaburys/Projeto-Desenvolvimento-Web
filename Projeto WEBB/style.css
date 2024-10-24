@@ -1,0 +1,138 @@
+.imagem  {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.cima{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  h1, h2 {
+    color: #ff6600;
+  }
+
+  h3{
+    color: #ffffff;
+  }
+  
+  .header {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+  .nav-cabecalho {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .nav-cabecalho a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .nav-cabecalho a:hover {
+    border-color: white;
+  }
+  
+   .banner {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px 20px;
+  } 
+  
+  .botaopedido {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .botaopedido:hover {
+    background-color: #ff8800;
+  }
+  
+  .conteudo {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(50, 168, 236, 0.384);
+  }
+  
+  .produtos {
+    display: flex;
+    justify-content: space-around;   
+  }
+  
+  .produto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    background-color: #ff6600;
+    color: #ffffff;
+  }
+  
+  .produtos img {
+    width: 100%;
+  }
+  
+  .promocoes {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .sobreNos {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contatos {
+    padding: 40px 20px;
+    text-align: center;
+    height: 170px;
+    background-color: #ddd;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+  }
+
+  .footer {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .telLink{
+    color: black;
+  text-decoration: none; 
+  
+  }
+  .telLink:hover, .Endereço:hover{
+    color: #ff6600; /* Texto fica branco ao passar o mouse */
+  }
+
+  .Endereço{
+    color: black;
+  text-decoration: none; 
+  }
